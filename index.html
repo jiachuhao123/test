@@ -1,0 +1,84 @@
+
+<html>
+	
+	<head>
+	<meta charset="utf-8">
+	<link href="styles/style.css" rel="stylesheet" type="text/css">
+	<title>Questionnaire</title>
+	</head>
+
+    <body>
+		<h1>Survey</h1>
+		<form action="index.php" name="my form" method="POST">
+		
+		<div class="question">
+		<h3><q>That website is simple and clear!</q></h3>
+		<h3><q>Go to <a href="https://www.baidu.com/">Baidu</a> and give us your opinion of its UI.</q></h2>	
+		<br>
+		<img src="images/website.png" alt="https://www.baidu.com/" width="450" height="300">
+		</div>
+		<br>
+		
+		<div class="question">
+		<h3><q> Personal Information </q></h3>					
+		First name:<input type="text" name="firstname" required><br>
+		Last name:<input type="text" name="lastname" required><br>
+		<br>
+
+		Are you:<br>
+		<input type="radio" name="sex" value="male" required>Male<br>
+		<input type="radio" name="sex" value="female" required>Female<br>
+		<br>
+		
+		What is your Zodiac Sign?<br>
+		<select id="Zodiac">
+				<option value="Aries" selected="selected"><Aries</option>
+				<option value="Taurus" >Taurus</option>
+				<option value="Gemini" >Gemini</option>
+				<option value="Cancer" >Cancer</option>
+				<option value="Leo" >Leo</option>
+				<option value="Virgo" >Virgo</option>
+				<option value="Libra" >Libra</option>
+				<option value="Scorpio" >Scorpio</option>
+				<option value="Sagittarius" >Sagittarius</option>
+				<option value="Capricorn" >Capricorn</option>
+				<option value="Aquarius " >Aquarius</option>
+				<option value="Pisces" >Pisces</option>
+		</select>
+		<br>
+		
+		</div>
+				
+		<div class="question">
+		<h3><q> What kind of movies do you like? </q></h3>	
+		
+		I like:<br>
+		<input type="checkbox" name="action films" value="action films">action films<br>
+		<input type="checkbox" name="comedies" value="comedies">comedies<br>
+		<input type="checkbox" name="romantic films" value="romantic films">romantic films<br>
+		<input type="checkbox" name="adventure films" value="adventure films">adventure films<br>
+		<input type="checkbox" name="musicals" value="musicals">musicals<br>
+		<input type="checkbox" name="dramas" value="dramas">dramas<br>
+		<input type="checkbox" name="horror films" value="horror films">horror films<br>
+		</div>
+		<br>
+
+		<div class="question">
+		<h3><q> Feedback for my UI </q></h3>	
+		Comments:<br>
+			<textarea class="comment"></textarea>
+		</div>
+		<br>
+		<br>
+		
+		
+		<button type="submitButton" id="submitButton" type="button" class="block">
+				SUBMIT YOUR QUESTIONNAIRE
+		</button>
+
+		
+		<p id="signature">Site created by アインスト·アルフィミィ</p>	
+					
+		</form>
+    </body>
+</html>

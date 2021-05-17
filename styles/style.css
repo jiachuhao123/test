@@ -1,0 +1,70 @@
+html {
+  background-image: url("../images/3.jpg");
+  background-size: cover;
+}
+ 
+body {
+
+  width: 600px;
+  margin:auto;
+  padding: 0px 20px 20px 20px;
+
+}
+
+
+q{
+	
+	color: white;
+}
+
+h1 {
+	text-align: center;
+	margin: 0;
+	padding: 20px 0;
+	font-size: 75px;
+    text-shadow: 5px 5px 5px black, 0px 0px 2px black; 
+    color: white;
+}
+
+img {
+  display: block;
+  margin: 0 auto;
+  align: center;
+}
+
+
+.question {
+  border: 2px solid white;
+  font-size: 20px;
+  color: white;
+  margin: 20px;
+  padding: 20px;
+}
+
+.comment {
+  resize: none;
+  width: 500px;
+  height: 200px;
+}
+
+
+.block {
+
+  width: 100%;
+  background-color: #4CAF50;
+  border: none;
+  color: white;
+  padding: 14px 28px;
+  text-align: center;
+  display: block;
+  font-size: 16px;
+  position: center;
+}
+
+
+#signature {
+  text-align: right;
+  color: red;
+  font-style: italic;
+  font-size: 75%;
+}
